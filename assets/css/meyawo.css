@@ -11991,6 +11991,17 @@ pre .code {
           align-items: center;
 }
 
+.visitor-box img {
+    max-width: 170px;
+    height: auto;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.visitor-box img:hover {
+    transform: scale(1.03);
+}
+
 .footer p,
 .footer .social-links {
   -webkit-box-flex: 1;
